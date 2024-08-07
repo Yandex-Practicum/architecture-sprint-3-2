@@ -40,6 +40,7 @@ provider_installation {
 ## Применяем terraform конфигурацию 
 
 ```bash
+cd terraform
 terraform apply
 ```
 
