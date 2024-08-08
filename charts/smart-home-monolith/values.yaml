@@ -112,6 +112,6 @@ affinity: {}
 postgresql:
   enabled: true
   auth:
-    username: "your_username"
-    password: "your_password"
-    database: "smart_home"
+    username: your_username
+    password: your_password
+    database: smart_home
