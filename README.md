@@ -37,8 +37,6 @@ provider_installation {
 }
 ```
 
-kubectl create secret docker-registry ghcr --docker-server=https://ghcr.io --docker-username=shestera --docker-password=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 -n default
-
 ## Применяем terraform конфигурацию 
 
 ```bash

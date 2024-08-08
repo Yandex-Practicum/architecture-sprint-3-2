@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/smart_home
+    url: jdbc:postgresql://smart-home-monolith2-postgresql-0:5432/smart_home
     username: your_username
     password: your_password
   jpa:
