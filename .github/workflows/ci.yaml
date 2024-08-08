@@ -29,6 +29,6 @@ jobs:
         with:
           context: smart-home-monolith
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/yandex-practicum/architecture-sprint-3-2:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
