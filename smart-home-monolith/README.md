@@ -44,10 +44,15 @@ docker run --name postgres-db -e POSTGRES_DB=smart_home -e POSTGRES_USER=your_us
 mvn spring-boot:run
 ```
 
+## Тесты
+
+``` shell
+mvn test
+```
+
 ## Конфигурация
 
 ### Подключение к базе данных
-
 Конфигурация подключения к PostgreSQL находится в файле `application.yml`:
 
 ```yaml
