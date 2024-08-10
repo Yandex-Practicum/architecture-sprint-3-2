@@ -40,6 +40,13 @@ spec:
             - name: http
               containerPort: {{ .Values.service.port }}
               protocol: TCP
+          env:
+            - name: DB_HOST
+              value: {{ .Values.env.dbHost }}
+            - name: DB_USERNAME
+              value: {{ .Values.env.dbUsername }}
+            - name: DB_PASSWORD
+              value: {{ .Values.env.dbPassword }}
           livenessProbe:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
           readinessProbe:

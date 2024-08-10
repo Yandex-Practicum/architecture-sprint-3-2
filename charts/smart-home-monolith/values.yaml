@@ -125,3 +125,8 @@ postgresql:
     username: your_username
     password: your_password
     database: smart_home
+
+env:
+  dbHost: "smart-home-monolith-postgresql.default"
+  dbUsername: "your_username"
+  dbPassword: "your_password"
