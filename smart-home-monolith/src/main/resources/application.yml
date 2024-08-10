@@ -18,6 +18,19 @@ spring:
     init:
       mode: always
       schema-locations: classpath:init.sql
+  management:
+    endpoints:
+      health:
+        probes:
+          enabled: true
+      web:
+        exposure:
+          include: health,info
+    health:
+      livenessState:
+        enabled: true
+      readinessState:
+        enabled: true
 
 server:
   port: 8080
